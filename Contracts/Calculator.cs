@@ -1,10 +1,16 @@
-﻿namespace Calculator_Demo.Contracts;
+﻿
+using System.Diagnostics.CodeAnalysis;
+
+namespace Calculator_Demo.Contracts;
 
 public class Calculator : ICalculator
 {
-    public int Add(int a, int b)
+    public int Add(List<int> numbers)
     {
-        return a + b;
+        var sum = 0;
+        foreach (var i in numbers) 
+            sum += i;
+        return sum;
     }
 
     public int Divide(int a, int b)

@@ -6,6 +6,13 @@
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>CalculatorDemo</Title>
+     <PackageId>YoYo_CalculatorDemo</PackageId>
+    <Version>1.0.2</Version>
+    <Authors>YoYo</Authors>
+    <Company>HalalMashakil.NET</Company>
+    <Product>Calculator</Product>
+    <Description>Dome add packege</Description>
+    <RepositoryUrl>https://github.com/yuosif1286/Calculator_DemoPackage.git</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
